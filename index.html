@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rani Septia Ramadina — Portfolio</title>
+    <meta name="description" content="Portfolio Rani Septia Ramadina - Software Engineering Student">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Mouse Glow Effect -->
+    <div class="mouse-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo reveal-text">
+                <span class="logo-dot"></span>
+                Rani<span class="logo-accent">.</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge reveal-up">
+                    <span class="badge-dot"></span>
+                    Available for opportunities
+                </div>
+                
+                <h1 class="hero-title">
+                    <div class="reveal-text-wrapper"><span class="reveal-text">Hi, I'm <span class="gradient-text">Rani</span></span></div>
+                    <div class="reveal-text-wrapper"><span class="reveal-text">Software Engineering</span></div>
+                    <div class="reveal-text-wrapper"><span class="reveal-text">Student & <span class="typing-text" id="typing"></span><span class="cursor-blink">|</span></span></div>
+                </h1>
+                
+                <p class="hero-description reveal-up" style="--delay: 0.6s">
+                    A Software Engineering student passionate about <strong>UI/UX Design</strong>, 
+                    <strong>programming</strong>, and <strong>web development</strong> — creating creative, 
+                    engaging, and useful digital solutions.
+                </p>
+                
+                <div class="hero-cta reveal-up" style="--delay: 0.8s">
+                    <a href="#about" class="btn btn-primary">
+                        <span>About Me</span>
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get in Touch</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal-up" style="--delay: 0.4s">
+                <div class="visual-card glow-card">
+                    <div class="card-content">
+                        <div class="code-header">
+                            <div class="code-dots"><span></span><span></span><span></span></div>
+                            <span class="code-title">rani.js</span>
+                        </div>
+                        <pre class="code-block"><code><span class="code-keyword">const</span> <span class="code-var">rani</span> = {
+  <span class="code-key">name</span>: <span class="code-string">"Rani Septia Ramadina"</span>,
+  <span class="code-key">role</span>: <span class="code-string">"Software Engineering Student"</span>,
+  <span class="code-key">passion</span>: [
+    <span class="code-string">"UI/UX Design"</span>,
+    <span class="code-string">"Web Development"</span>,
+    <span class="code-string">"Problem Solving"</span>
+  ],
+  <span class="code-key">motto</span>: <span class="code-string">"Turning ideas into digital art ✨"</span>
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator reveal-up" style="--delay: 1s">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-header reveal-up">
+            <span class="section-tag">01 — About</span>
+            <h2 class="section-title">Get to <span class="gradient-text">know me</span></h2>
+        </div>
+        <div class="about-content-wrapper reveal-up" style="--delay: 0.2s">
+            <h3 class="about-heading">
+                Halo! Saya <span class="gradient-text">Rani Septia Ramadina</span> 👋
+            </h3>
+            <p class="about-text">
+                Seorang pelajar <strong>Rekayasa Perangkat Lunak</strong> yang memiliki ketertarikan 
+                di bidang teknologi, khususnya <strong>UI/UX Design</strong>, pemrograman, dan 
+                pengembangan website.
+            </p>
+            <p class="about-text">
+                Saya senang mempelajari hal-hal baru dan mengubah ide menjadi karya digital yang 
+                menarik dan bermanfaat. Saya terus mengembangkan kemampuan untuk menghasilkan karya yang 
+                <em>kreatif, rapi, dan mudah digunakan</em>.
+            </p>
+            <div class="about-highlights">
+                <div class="highlight glow-card">
+                    <i class="fas fa-palette"></i>
+                    <div><h4>Creative</h4><p>Design & Visual Thinking</p></div>
+                </div>
+                <div class="highlight glow-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <div><h4>Curious</h4><p>Always Learning New Things</p></div>
+                </div>
+                <div class="highlight glow-card">
+                    <i class="fas fa-rocket"></i>
+                    <div><h4>Driven</h4><p>Turning Ideas Into Reality</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">02 — Skills</span>
+                <h2 class="section-title">What I <span class="gradient-text">work with</span></h2>
+                <p class="section-subtitle">Tools & technologies I use to bring ideas to life</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Cards with staggered animation via CSS -->
+                <div class="skill-card glow-card reveal-up" style="--delay: 0.1s">
+                    <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                    <h3 class="skill-name">UI/UX Design</h3>
+                    <p class="skill-desc">Figma — Design & Prototyping</p>
+                    <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                </div>
+                <div class="skill-card glow-card reveal-up" style="--delay: 0.2s">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h3 class="skill-name">HTML</h3>
+                    <p class="skill-desc">Semantic & Structured Markup</p>
+                    <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+                </div>
+                <div class="skill-card glow-card reveal-up" style="--delay: 0.3s">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h3 class="skill-name">CSS</h3>
+                    <p class="skill-desc">Responsive & Modern Styling</p>
+                    <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+                </div>
+                <div class="skill-card glow-card reveal-up" style="--delay: 0.4s">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-desc">Interactive Web Experiences</p>
+                    <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+                </div>
+                <div class="skill-card glow-card reveal-up" style="--delay: 0.5s">
+                    <div class="skill-icon"><i class="fab fa-php"></i></div>
+                    <h3 class="skill-name">PHP</h3>
+                    <p class="skill-desc">Backend Development</p>
+                    <div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div>
+                </div>
+                <div class="skill-card glow-card reveal-up" style="--delay: 0.6s">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="skill-name">MySQL</h3>
+                    <p class="skill-desc">Database Management</p>
+                    <div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div>
+                </div>
+                <div class="skill-card glow-card reveal-up" style="--delay: 0.7s">
+    <div class="skill-icon">
+        <!-- Ikon laptop & file yang mewakili pekerjaan office -->
+        <i class="fas fa-laptop-file"></i> 
+    </div>
+    <h3 class="skill-name">Microsoft Office</h3>
+    <p class="skill-desc">Pengolahan Data, Laporan & Presentasi</p>
+    <div class="skill-bar">
+        <div class="skill-progress" data-progress="85"></div>
+    </div>
+</div>
+                <div class="skill-card glow-card reveal-up" style="--delay: 0.8s">
+                    <div class="skill-icon"><i class="fas fa-puzzle-piece"></i></div>
+                    <h3 class="skill-name">Problem Solving</h3>
+                    <p class="skill-desc">Logical Thinking & Analysis</p>
+                    <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">03 — Contact</span>
+                <h2 class="section-title">Let's <span class="gradient-text">connect</span></h2>
+                <p class="section-subtitle">Have a project in mind or just want to say hi? Feel free to reach out!</p>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:your.email@example.com" class="contact-card glow-card reveal-up" style="--delay: 0.1s">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">your.email@example.com</span>
+                    </div>
+                    <i class="fas fa-arrow-right contact-arrow"></i>
+                </a>
+                <a href="https://wa.me/628xxxxxxxxxx" target="_blank" class="contact-card glow-card reveal-up" style="--delay: 0.2s">
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">WhatsApp</span>
+                        <span class="contact-value">+62 8xx-xxxx-xxxx</span>
+                    </div>
+                    <i class="fas fa-arrow-right contact-arrow"></i>
+                </a>
+                <a href="https://instagram.com/yourusername" target="_blank" class="contact-card glow-card reveal-up" style="--delay: 0.3s">
+                    <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="contact-info">
+                        <span class="contact-label">Instagram</span>
+                        <span class="contact-value">@rn.ranii_</span>
+                    </div>
+                    <i class="fas fa-arrow-right contact-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p class="footer-line-1">
+                <span class="footer-name">Rani Septia Ramadina</span>
+                <span class="footer-separator">·</span>
+                <span class="footer-info">Software Engineering Student</span>
+                <span class="footer-separator">·</span>
+            </p>
+            <p class="footer-line-2">
+                <span class="footer-info">SMK (Rekayasa Perangkat Lunak)</span>
+                <span class="footer-separator">·</span>
+                <span class="footer-info">© 2026</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
